@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
-  name     = var.rgname
-  location = var.loc
+  name     = "Rg2"
+  location = "East Us"
 }
 resource "azurerm_managed_disk" "example" {
   name                 = "disk1"
