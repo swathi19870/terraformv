@@ -9,9 +9,9 @@ version = "=3.0.0"
 }
 terraform {
   backend "azurerm" {
-    storage_account_name = "saone1987"
-    container_name       = "con1"
+    storage_account_name = "sad9876"
+    container_name       = "cn1"
     key                  = "prod.terraform.tfstate"
-    access_key = "emCdra1YSweUuWfG7cfBFzbcyCbUKs+chOJPWNLNIg2hchXQpQPb4w6Sfwfc0O3c/UPwq4FG47Md+AStBUe2AA=="
+    access_key = "ibAJGUv2WSyWElN02unFgxzYeTEyelJZTzEkmxveYjtamKYVoqiQGhtc09q2kvQYosQuMEPJAR5q+AStpNI+kA=="
   }
 }
